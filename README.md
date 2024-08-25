@@ -1,50 +1,63 @@
-# Welcome to your Expo app 👋
+# Quick_Cab
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## Overview
+Quick_Cab is a full-stack React Native application designed to provide a seamless ride-hailing experience. The app integrates with Stripe for payments and uses PostgreSQL for data storage. Key features include onboarding and authentication screens, map functionality, and ride management.
 
-## Get started
+## Table of Contents
+- [Installation](#installation)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [File Structure](#file-structure)
+- [Setup](#setup)
+- [Running the App](#running-the-app)
+- [Contributing](#contributing)
+- [License](#license)
 
-1. Install dependencies
+## Installation
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/anmolranjan1/Quick_Cab.git
+    ```
+2. Navigate to the project directory:
+    ```bash
+    cd Quick_Cab
+    ```
+3. Install dependencies:
+    ```bash
+    npm install
+    ```
 
-   ```bash
-   npm install
-   ```
+## Features
+- Onboarding Screens
+- Authentication with Clerk Email
+- Bottom Tab Navigation
+- Map Functionality
+- Zustand for State Management
+- Stripe Payment Integration
+- Location Autocomplete
+- Ride Booking and History
+- OAuth Authentication
+- Profile and Message Screens
 
-2. Start the app
+## Technologies Used
+- **Frontend:** React Native, TypeScript, Tailwind CSS
+- **Backend:** NeonDB, PostgreSQL
+- **Authentication:** Clerk, OAuth
+- **Payments:** Stripe
+- **State Management:** Zustand
 
-   ```bash
-    npx expo start
-   ```
+## Running the App
+1. Start the development server:
+    ```bash
+    npm start
+    ```
+2. Run the app on a simulator or device:
+    ```bash
+    npm run android # for Android
+    npm run ios     # for iOS
+    ```
 
-In the output, you'll find options to open the app in a
+## Contributing
+Feel free to submit issues and pull requests. Please follow the coding standards and guidelines outlined in the project.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+---
