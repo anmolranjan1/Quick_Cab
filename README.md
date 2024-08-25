@@ -7,11 +7,8 @@ Quick_Cab is a full-stack React Native application designed to provide a seamles
 - [Installation](#installation)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
-- [File Structure](#file-structure)
-- [Setup](#setup)
 - [Running the App](#running-the-app)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Installation
 1. Clone the repository:
