@@ -4,8 +4,6 @@ const Layout = () => {
   return (
     <Stack>
       <Stack.Screen name="(tabs)" />
-      <Stack.Screen name="(auth)" />
-      <Stack.Screen name="+not-found" />
     </Stack>
   );
 };
