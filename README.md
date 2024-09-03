@@ -36,6 +36,8 @@ EXPO_PUBLIC_STRIPE_PUBLISHABLE_KEY=
 STRIPE_SECRET_KEY=
 ```
 
+Replace the placeholder values with your actual Clerk, Stripe, NeonDB, Google Maps, and Geoapify credentials. You can obtain these credentials by signing up on the Clerk, Stripe, NeonDB, Google Maps and Geoapify websites respectively.
+
 ## Features
 - Onboarding Screens
 - Authentication with Clerk Email
@@ -58,14 +60,14 @@ STRIPE_SECRET_KEY=
 ## Running the App
 1. Start the development server:
     ```bash
-    npm start
+    npx expo start
     ```
 2. Run the app on a simulator or device:
     ```bash
     npm run android # for Android
     npm run ios     # for iOS
     ```
-3. Alternatively, use the Expo Go app to scan the QR code and run the app on your device.
+3. Alternatively, download the Expo Go app to scan the QR code and run the app on your device.
 
 ## Contributing
 Feel free to submit issues and pull requests. Please follow the coding standards and guidelines outlined in the project.
