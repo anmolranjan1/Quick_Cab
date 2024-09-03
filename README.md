@@ -36,7 +36,7 @@ EXPO_PUBLIC_STRIPE_PUBLISHABLE_KEY=
 STRIPE_SECRET_KEY=
 ```
 
-Replace the placeholder values with your actual Clerk, Stripe, NeonDB, Google Maps, and Geoapify credentials. You can obtain these credentials by signing up on the Clerk, Stripe, NeonDB, Google Maps and Geoapify websites respectively.
+Replace the placeholder values with your actual [Clerk](https://clerk.com/), [Stripe](https://stripe.com/in), [NeonDB](https://neon.tech/), [Google Maps](https://console.cloud.google.com/), and [Geoapify](https://www.geoapify.com/) credentials. You can obtain these credentials by signing up on the respective websites.
 
 ## Features
 - Onboarding Screens
