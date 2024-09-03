@@ -23,6 +23,18 @@ Quick_Cab is a full-stack React Native application designed to provide a seamles
     ```bash
     npm install
     ```
+4. Create a `.env` file in the root directory and add the following:
+
+```plaintext
+EXPO_PUBLIC_CLERK_PUBLISHABLE_KEY=
+EXPO_PUBLIC_PLACES_API_KEY=
+EXPO_PUBLIC_DIRECTIONS_API_KEY=
+DATABASE_URL=
+EXPO_PUBLIC_SERVER_URL=https://uber.dev/
+EXPO_PUBLIC_GEOAPIFY_API_KEY=
+EXPO_PUBLIC_STRIPE_PUBLISHABLE_KEY=
+STRIPE_SECRET_KEY=
+```
 
 ## Features
 - Onboarding Screens
@@ -53,6 +65,7 @@ Quick_Cab is a full-stack React Native application designed to provide a seamles
     npm run android # for Android
     npm run ios     # for iOS
     ```
+3. Alternatively, use the Expo Go app to scan the QR code and run the app on your device.
 
 ## Contributing
 Feel free to submit issues and pull requests. Please follow the coding standards and guidelines outlined in the project.
