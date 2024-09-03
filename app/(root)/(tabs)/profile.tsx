@@ -13,9 +13,9 @@ const Profile = () => {
         className="px-5"
         contentContainerStyle={{ paddingBottom: 120 }}
       >
-        <Text className="text-2xl font-JakartaBold my-5">My profile</Text>
+        <Text className="text-2xl font-JakartaBold my-5">My Profile</Text>
 
-        <View className="flex items-center justify-center my-5">
+        <View className="flex items-center justify-center mb-5">
           <Image
             source={{
               uri: user?.externalAccounts[0]?.imageUrl ?? user?.imageUrl,
