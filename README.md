@@ -1,7 +1,7 @@
-# Quick_Cab
+# Quick Cab
 
 ## Overview
-Quick_Cab is a full-stack React Native application designed to provide a seamless ride-hailing experience. The app integrates with Stripe for payments and uses PostgreSQL for data storage. Key features include onboarding and authentication screens, map functionality, and ride management.
+Quick Cab is a full-stack React Native application designed to provide a seamless ride-hailing experience. The app integrates with Stripe for payments and uses PostgreSQL for data storage. Key features include onboarding and authentication screens, map functionality, and ride management.
 
 ## Table of Contents
 - [Installation](#installation)
